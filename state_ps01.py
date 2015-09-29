@@ -27,9 +27,9 @@ print " Airspeed: %s" % vehicle.airspeed
 print " Mount status: %s" % vehicle.mount_status
 # commented out for USB powered testing
 #print " Battery: %s" % vehicle.battery
-print " Rangefinder: %s" % vehicle.rangefinder
-print " Rangefinder distance: %s" % vehicle.rangefinder.distance
-print " Rangefinder voltage: %s" % vehicle.rangefinder.voltage
+#print " Rangefinder: %s" % vehicle.rangefinder
+#print " Rangefinder distance: %s" % vehicle.rangefinder.distance
+#print " Rangefinder voltage: %s" % vehicle.rangefinder.voltage
 print " Mode: %s" % vehicle.mode.name    # settable
 print " Armed: %s" % vehicle.armed    # settable
 
