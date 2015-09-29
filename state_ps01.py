@@ -25,7 +25,8 @@ print " GPS: %s" % vehicle.gps_0
 print " Groundspeed: %s" % vehicle.groundspeed
 print " Airspeed: %s" % vehicle.airspeed
 print " Mount status: %s" % vehicle.mount_status
-print " Battery: %s" % vehicle.battery
+# commented out for USB powered testing
+#print " Battery: %s" % vehicle.battery
 print " Rangefinder: %s" % vehicle.rangefinder
 print " Rangefinder distance: %s" % vehicle.rangefinder.distance
 print " Rangefinder voltage: %s" % vehicle.rangefinder.voltage
